@@ -1,8 +1,8 @@
 <manifest>
 	<remote fetch="https://github.com/EssentialOpenSource" name="essential" />
-	<default remote="essential" />
-	<project name="linux" path="kernel" revision="be85a834a7778979895e0dc3710b189a8fed7f74" />
-	<project name="qcacld-3.0" path="qcacld-3.0" revision="62404c9c6955fe503dbc701eb516177f0f728411" />
-	<project name="qca-wifi-host-cmn" path="qca-wifi-host-cmn" revision="674f9b40333bf8dc97b5510af142d93e4f954f53" />
-	<project name="fw-api" path="fw-api" revision="92d60a5599091a6adf3b3a9e395a8d674bc030b4"/>
+	<default remote="essential" revision="refs/tags/OPM1.180104.092" />
+	<project name="linux" path="kernel" />
+	<project name="qcacld-3.0" path="qcacld-3.0" />
+	<project name="qca-wifi-host-cmn" path="qca-wifi-host-cmn" />
+	<project name="fw-api" path="fw-api" />
 </manifest>
