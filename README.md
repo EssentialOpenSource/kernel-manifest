@@ -2,7 +2,7 @@
 
 * Init repo:
 ```
-repo init -u https://github.com/EssentialOpenSource/kernel-manifest -b refs/tags/OPM1.180104.141
+repo init -u https://github.com/EssentialOpenSource/kernel-manifest -b refs/tags/OPM1.180104.166
 ```
 * Sync repo:
 ```
@@ -32,3 +32,17 @@ make CC=clang -j32
 ${CROSS_COMPILE}strip --strip-debug wlan.ko
 ```
 * Use qcacld-3.0/wlan.ko and arch/arm64/boot/Image.gz-dtb as prebuilt for your Android boot image
+
+## Build Essential PH-1 kernel with KASAN/KCOV support
+
+To allow KASAN testing and fuzzing (like with syzkaller), you can compile
+PH-1 kernel with mata_kasan_defconfig
+
+```
+cd kernel
+make CC=clang mata_kasan_defconfig
+make CC=clang -j32
+```
+
+KCOV, KASAN and additional debug configuration flags (like kernel memory leak detector)
+are enabled
