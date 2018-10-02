@@ -1,6 +1,6 @@
 <manifest>
 	<remote fetch="https://github.com/EssentialOpenSource" name="essential" />
-	<default remote="essential" revision="refs/tags/PPR1.180905.036" />
+	<default remote="essential" revision="refs/tags/PPR1.181005.034" />
 	<project name="linux" path="kernel" />
 	<project name="qcacld-3.0" path="qcacld-3.0" />
 	<project name="qca-wifi-host-cmn" path="qca-wifi-host-cmn" />
