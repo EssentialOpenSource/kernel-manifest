@@ -2,14 +2,14 @@
 
 * Init repo:
 ```
-repo init -u https://github.com/EssentialOpenSource/kernel-manifest -b refs/tags/PPR1.181005.076
+repo init -u https://github.com/EssentialOpenSource/kernel-manifest -b refs/tags/PPR1.181005.099
 ```
 * Sync repo:
 ```
 repo sync -j4 -c
 ```
 * Download the latest [Android NDK](https://developer.android.com/ndk/downloads/index.html) and extract it in a toolchain folder
-* Download [clang-4053586](https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/) and extract it in the toolchain folder
+* Download [clang-4630689](https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/) and extract it in the toolchain folder
 * Export global variables
 ```
 export ARCH=arm64
