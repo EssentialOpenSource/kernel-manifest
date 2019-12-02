@@ -2,7 +2,7 @@
 
 * Init repo:
 ```
-repo init -u https://github.com/EssentialOpenSource/kernel-manifest -b refs/tags/QP1A.191005.014
+repo init -u https://github.com/EssentialOpenSource/kernel-manifest -b refs/tags/QQ1A.191205.017
 ```
 * Sync repo:
 ```
